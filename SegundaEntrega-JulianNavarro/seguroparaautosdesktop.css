@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+section p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  color: #555;
+}
+
+section ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+section ul li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el título de la sección Seguro para Autos */
+.seguros-autos h2 {
+  font-size: 48px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el cuerpo de la sección Seguro para Autos */
+.seguros-autos .contenido {
+  background-color: #f8f8f8;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.seguros-autos p {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.seguros-autos ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.seguros-autos ul li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.seguros-autos .boton {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.seguros-autos .boton:hover {
+  background-color: #0056b3;
+}

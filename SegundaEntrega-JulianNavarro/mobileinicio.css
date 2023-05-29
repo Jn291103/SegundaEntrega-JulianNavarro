@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.titulo {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navegacion a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navegacion a:hover {
+  color: #ffcc00;
+}
+
+/* Estilos del contenido */
+.contenido {
+  margin-top: 20px;
+}
+
+.descripcion h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.descripcion p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  text-align: justify;
+}
+
+.descripcion ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.descripcion li {
+  margin-bottom: 10px;
+}
+
+.descripcion li:before {
+  content: "\2022";
+  color: #ffcc00;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.contacto p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+}
+
+.contacto ul {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacto li {
+  margin-bottom: 10px;
+}
+
+.contacto a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contacto a:hover {
+  color: #ffcc00;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+

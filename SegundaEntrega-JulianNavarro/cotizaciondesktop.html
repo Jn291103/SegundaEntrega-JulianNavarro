@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización</title>
+    <link rel="stylesheet" href="cotizacion.css">
+</head>
+<body>
+  <section class="cotizacion">
+    <div class="container">
+      <h2>Calculadora de Cotización</h2>
+      <div class="cotizacion-form">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" placeholder="Ingrese su correo electrónico" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" placeholder="Ingrese su edad" required>
+          </div>
+          <div class="col-md-6">
+            <label for="vehiculo">Vehículo:</label>
+            <input type="text" id="vehiculo" placeholder="Ingrese el modelo de su vehículo" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="monto">Monto asegurado:</label>
+            <input type="number" id="monto" placeholder="Ingrese el monto a asegurar" required>
+          </div>
+          <div class="col-md-6">
+            <label for="plazo">Plazo:</label>
+            <select id="plazo">
+              <option value="1">1 año</option>
+              <option value="2">2 años</option>
+              <option value="3">3 años</option>
+            </select>
+          </div>
+        </div>
+        <button id="cotizacionBtn" class="btn btn-primary">Calcular Cotización</button>
+      </div>
+      <div class="resultado-cotizacion">
+        <h3>Resultado de la cotización:</h3>
+        <div id="resultado"></div>
+      </div>
+    </div>
+  </section>
+  
+
+    <script src="cotizacion.js"></script>
+</body>
+</html>

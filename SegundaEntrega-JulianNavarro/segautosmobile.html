@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguros para Autos - Versión Móvil</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="segautosmobile.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Seguros para Autos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coberturas">Coberturas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#precios">Precios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio" class="container py-5">
+    <h2 class="text-center">¡Protege tu vehículo con nuestros seguros!</h2>
+    <p class="text-center">En nuestra empresa, ofrecemos una amplia gama de seguros para autos que se adaptan a tus necesidades y presupuesto.</p>
+    <a href="#cotizacion" class="btn btn-primary d-block mx-auto">Obtener Cotización</a>
+  </section>
+
+  <section id="coberturas" class="container py-5">
+    <h2 class="text-center">Coberturas de Seguros para Autos</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li>Cobertura de responsabilidad civil</li>
+          <li>Cobertura contra robo y vandalismo</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li>Cobertura contra daños a terceros</li>
+          <li>Cobertura de accidentes personales</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="precios" class="container py-5">
+    <h2 class="text-center">Precios y Planes de Seguros para Autos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Básico</h5>
+            <p class="card-text">Cobertura mínima requerida por la ley</p>
+            <p class="card-text">$100/mes</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Estándar</h5>
+            <p class="card-text">Cobertura adicional para mayor protección</p>
+            <p class="card-text">$150/mes</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Premium</h5>
+            <p class="card-text">Cobertura completa y beneficios exclusivos</p>
+            <p class="card-text">$200/mes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cotizacion" class="container py-5">
+    <h2 class="text-center">Obtén una Cotización Personalizada</h2>
+    <form id="cotizacionForm">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" id="nombre" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico:</label>
+        <input type="email" id="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono:</label>
+        <input type="tel" id="telefono" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Calcular Cotización</button>
+    </form>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Seguros para Autos. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

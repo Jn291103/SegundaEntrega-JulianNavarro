@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  /* Estilos de encabezado */
+  header {
+    background-color: #f8f9fa;
+    padding: 15px 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Estilos de sección "Inicio" */
+  #inicio {
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  #inicio h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #inicio p {
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  /* Estilos de sección "Coberturas" */
+  #coberturas h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  #coberturas ul {
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos de sección "Precios" */
+  #precios h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    color: #777;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Estilos de sección "Cotización" */
+  #cotizacion h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-label {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-control {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+  }
+  
