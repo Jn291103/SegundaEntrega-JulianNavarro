@@ -1,0 +1,441 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  section img {
+    margin: 20px 0;
+    max-width: 100%;
+  }
+  
+  /* Estilos para la sección de seguros para autos */
+  
+  section:nth-of-type(1) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para la sección de seguros para hogar */
+  
+  section:nth-of-type(2) {
+    background-color: #e6e6e6;
+  }
+  
+  /* Estilos para la sección de seguros para empresas */
+  
+  section:nth-of-type(3) {
+    background-color: #d9d9d9;
+  }
+  
+  /* Estilos para la caja modal */
+  
+  .modal {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 80%;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .modal-close {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  /* Estilos para el botón de contacto */
+  
+  button {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  
+  @media (max-width: 767px) {
+    nav {
+      display: none;
+    }
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
+  
+  /* Estilos para la sección de Inicio */
+  #Inicio {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+  
+  #inicio header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  #inicio nav ul {
+    display: flex;
+  }
+  
+  #inicio nav ul li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  #inicio nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #inicio nav ul li a:hover {
+    color: #f44336;
+  }
+  
+  #inicio main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #inicio main .texto {
+    width: 60%;
+    margin-right: 30px;
+  }
+  
+  #inicio main .imagen {
+    width: 35%;
+  }
+  
+  #inicio main .imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  #inicio main .texto h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #inicio main .texto p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  #inicio main .texto button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #inicio main .texto button:hover {
+    background-color: #333;
+  }
+  
+  #SegurosParaAutos {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto {
+    flex-basis: 60%;
+    padding-right: 50px;
+  }
+  
+  .imagen {
+    flex-basis: 40%;
+  }
+  
+  .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto ul {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto li {
+    list-style: disc;
+    margin-left: 30px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .imagen img {
+    width: 100%;
+  }
+  
+  #seguros-autos {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto {
+    flex-basis: 60%;
+    padding-right: 50px;
+  }
+  
+  .imagen {
+    flex-basis: 40%;
+  }
+  
+  .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto ul {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto li {
+    list-style: disc;
+    margin-left: 30px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .imagen img {
+    width: 100%;
+  }
+  
+  #SegurosHogar {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .texto {
+    flex-basis: 60%;
+    padding-right: 50px;
+  }
+  
+  .imagen {
+    flex-basis: 40%;
+  }
+  
+  .texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .texto p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto ul {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .texto li {
+    list-style: disc;
+    margin-left: 30px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .imagen img {
+    width: 100%;
+  }
+ 
+  #SegurosEmpresas {
+    padding: 50px 0;
+    background-color: #f5f5f5;
+  }
+  
+  #SegurosEmpresas h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #SegurosEmpresas p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  #SegurosEmpresas ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  #SegurosEmpresas li:before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  #SegurosEmpresas button {
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #SegurosEmpresas img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
